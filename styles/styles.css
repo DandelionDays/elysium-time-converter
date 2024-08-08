@@ -21,6 +21,10 @@ h1 {
 h3, p {
   color: white;
 }
+samp {
+  text-align: center;
+  font-size: 120%;
+}
 .tempus-hq {
   margin: 20px;
   text-align: center;
