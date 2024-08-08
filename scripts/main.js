@@ -8,5 +8,23 @@ altareLocal.textContent = (altareTime.toLocaleTimeString('en-US'));*/
 // 8/8/24 - test 1:
 //const altareLocal = document.getElementById("#altaretime");
 //altareLocal.style.backgroundColor = "red";
-const title = document.getElementById("#title");
+/* 8/8/24 - test 2, document.getElementById test: */
+const title = document.getElementById("title"); //OHHHH ok so when using getElementById, you do NOT need the #, but you DO when using querySelector
 console.log(title);
+/* 8/8/24 - test 3, document.querySelector: */
+//const title = document.querySelector("#title");
+//console.log(title);
+// 8/8/24 - test 4: querySelector altaretime
+//const altareTime1 = document.querySelector(altaretime)
+
+//console.log(altareTime1)
+  // test returned: "Uncaught SyntaxError: Unexpected identifier    main.js:18"
+  /* when swapped variable name to altareTime1, test returned: "Uncaught DOMException: Failed to execute 'querySelector' on 'Document': '[object HTMLElement]' is not a valid selector.
+    at file:///D:/coding-projects/website-projects/elysium-time-converter/scripts/main.js:18:30
+    (anonymous) @ main.js:18" */
+    // OHHHHH I see, I wrote document.querySelector(altaretime) and not document.querySelector("#altaretime")
+// 8/8/2024 - test 5: getElementById altaretime
+const altareTime = document.getElementById("altaretime")
+console.log(altareTime)
+  // YES THIS WORKED LOL
+
