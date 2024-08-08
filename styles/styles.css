@@ -1,8 +1,19 @@
 html {
+  font-size: 100%;
+  font-family: "Courier Prime" Courier, monospace;
+  font-weight: 400;
 }
 body {
+  font-size: 100%;
+  font-family: 'Courier Prime' Courier, monospace;
+  font-weight: 400;
+  width: auto;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
 }
 h1 {
+  text-align: center;
 }
 // tempus hq
 .tempus-hq {
@@ -34,4 +45,6 @@ h1 {
 .ruze {
 }
 footer {
+  font-size: 60%;
+  color: grey;
 }
