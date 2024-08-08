@@ -1,11 +1,11 @@
 html {
   font-size: 100%;
-  font-family: "Courier Prime" Courier, monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 400;
 }
 body {
   font-size: 100%;
-  font-family: 'Courier Prime' Courier, monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 400;
   width: auto;
   max-width: 600px;
@@ -13,38 +13,93 @@ body {
   padding: 20px;
 }
 h1 {
+  font-size: 200%;
+  font-family: 'Zen Dots', display, monospace;
+  font-weight: 600;
   text-align: center;
 }
-// tempus hq
+h3, p {
+  color: white;
+}
 .tempus-hq {
+  margin: 20px;
+  text-align: center;
 }
 .altare {
+  background-color: #5bbaf5;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .axel {
+  background-color: #ff9603;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
-// tempus vanguard
 .tempus-vg {
+  margin: 20px;
+  text-align: center;
 }
 .bettel {
+  background-color: #e943a1;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .flayon {
+  background-color: #db403a;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .hakka {
+  background-color: #c99ef4;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .shinri {
+  background-color: #b24e37;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
-// armis
 .armis {
+  margin: 20px;
+  text-align: center;
 }
 .jurard {
+  background-color: #423c3c;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .goldbullet {
+  background-color: #0b7271;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .octavio {
+  background-color: #3e72e2;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .ruze {
+  background-color: #c00101;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
-footer {
-  font-size: 60%;
+.footer {
+  font-size: 50%;
   color: grey;
+  max-width: 600px;
+  /*margin: 20px, auto;*/
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 20px, auto;
+  text-align: justify;
 }
