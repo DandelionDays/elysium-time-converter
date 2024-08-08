@@ -5,5 +5,8 @@ let altareLocal = document.querySelector("p.altaretime"); // not sure if this ma
 // complete css and make new branch before I try working on this more
 /*const altareTime = new Date('August 5, 2024 0:00:00 GMT+00:00');
 altareLocal.textContent = (altareTime.toLocaleTimeString('en-US'));*/
-const altareLocal = document.querySelector(".altaretime");
-console.log(altareLocal);
+// 8/8/24 - test 1:
+//const altareLocal = document.getElementById("#altaretime");
+//altareLocal.style.backgroundColor = "red";
+const title = document.getElementById("#title");
+console.log(title);

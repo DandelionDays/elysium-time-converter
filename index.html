@@ -10,13 +10,13 @@
     <link href="https://fonts.bunny.net/css?family=anaheim:400|pixelify-sans:400|share-tech-mono:400|zen-dots:400|courier-prime:400" rel="stylesheet" />
   </head>
   <body>
-    <h1>Elysium Time Converter</h1>
+    <h1 id="title">Elysium Time Converter</h1>
     <!-- Textbox for hq -->
       <div class="tempus-hq">
         <h2>Tempus HQ</h2>
           <div class="altare">
             <h3>Regis Altare</h3>
-              <p>In your local time, Altare streams at:<samp class="altaretime">Local Time</samp></p>
+              <p>In your local time, Altare streams at: <samp id="altaretime">Local Time</samp></p>
                 <!--8/7/24 - last thing I tried before bed - tried switching to <p class=""> rather than <samp id=""> but it still isn't running the toLocaleTimeString properly-->
           </div>
           <div class="axel">
@@ -67,6 +67,6 @@
     <footer>      
       <p class="footer">HOLOSTARS ENGLISH talents and associated intellectual property © 2016 COVER Corp.</p>
       <p class="footer">Website design and text content © 2024 Dandelion. Find me at <a href="https://x.com/5gooses">@5gooses on Twitter</a></footer>
-    <script source="scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
