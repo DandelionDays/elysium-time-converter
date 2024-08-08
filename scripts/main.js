@@ -24,7 +24,14 @@ console.log(title);
     (anonymous) @ main.js:18" */
     // OHHHHH I see, I wrote document.querySelector(altaretime) and not document.querySelector("#altaretime")
 // 8/8/2024 - test 5: getElementById altaretime
-const altareTime = document.getElementById("altaretime")
-console.log(altareTime)
+// ALTARE TIME:
+const altareLocalTime = document.getElementById("altaretime")
+console.log(altareLocalTime)
   // YES THIS WORKED LOL
-
+const altareStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+altareLocalTime.textContent = (altareStandardTime.toLocaleTimeString('en-US'));
+// AXEL TIME:
+const axelLocalTime = document.getElementById("axeltime")
+console.log(axelLocalTime)
+const axelStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+axelLocalTime.textContent = (axelStandardTime.toLocaleTimeString('en-US'));
