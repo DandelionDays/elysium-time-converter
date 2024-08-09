@@ -79,7 +79,7 @@ jurardLocalTime.textContent = (jurardStandardTime.toLocaleTimeString('en-US'));
 // GOLDBULLET TIME:
 const goldbulletLocalTime = document.getElementById("goldbullettime")
 console.log(goldbulletLocalTime)
-const goldbulletStandardTime = new Date('August 5, 2024 16:00:00 GMT+00:00'); 
+const goldbulletStandardTime = new Date('August 5, 2024 15:00:00 GMT+00:00'); 
 goldbulletLocalTime.textContent = (goldbulletStandardTime.toLocaleTimeString('en-US'));
 //--------------------------------------------
 // OCTAVIO TIME:
