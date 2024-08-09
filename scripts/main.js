@@ -23,57 +23,86 @@ console.log(title);
     at file:///D:/coding-projects/website-projects/elysium-time-converter/scripts/main.js:18:30
     (anonymous) @ main.js:18" */
     // OHHHHH I see, I wrote document.querySelector(altaretime) and not document.querySelector("#altaretime")
+
+//--------------------------------------------
 // 8/8/2024 - test 5: getElementById altaretime
 // ALTARE TIME:
 const altareLocalTime = document.getElementById("altaretime")
 console.log(altareLocalTime)
   // YES THIS WORKED LOL
-const altareStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const altareStandardTime = new Date('August 5, 2024 13:00:00 GMT+00:00'); 
 altareLocalTime.textContent = (altareStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
+// ALTARE TIME B:
+const altareLocalTimeB = document.getElementById("altaretimeb")
+console.log(altareLocalTimeB)
+  // YES THIS WORKED LOL
+const altareStandardTimeB = new Date('August 5, 2024 23:00:00 GMT+00:00'); //change time to typical stream time in GMT
+altareLocalTimeB.textContent = (altareStandardTimeB.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // AXEL TIME:
 const axelLocalTime = document.getElementById("axeltime")
 console.log(axelLocalTime)
-const axelStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const axelStandardTime = new Date('August 5, 2024 3:00:00 GMT+00:00'); //change time to typical stream time in GMT
 axelLocalTime.textContent = (axelStandardTime.toLocaleTimeString('en-US'));
-// --------------- FILL IN BELOW ----------------
+//--------------------------------------------
 // BETTEL TIME:
 const bettelLocalTime = document.getElementById("betteltime")
 console.log(bettelLocalTime)
-const bettelStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const bettelStandardTime = new Date('August 5, 2024 21:00:00 GMT+00:00'); //change time to typical stream time in GMT
 bettelLocalTime.textContent = (bettelStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // FLAYON TIME:
 const flayonLocalTime = document.getElementById("flayontime")
 console.log(flayonLocalTime)
-const flayonStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const flayonStandardTime = new Date('August 5, 2024 23:00:00 GMT+00:00'); //change time to typical stream time in GMT
 flayonLocalTime.textContent = (flayonStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // HAKKA TIME:
 const hakkaLocalTime = document.getElementById("hakkatime")
 console.log(hakkaLocalTime)
-const hakkaStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const hakkaStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); 
 hakkaLocalTime.textContent = (hakkaStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // SHINRI TIME:
 const shinriLocalTime = document.getElementById("shinritime")
 console.log(shinriLocalTime)
-const shinriStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const shinriStandardTime = new Date('August 5, 2024 1:00:00 GMT+00:00'); 
 shinriLocalTime.textContent = (shinriStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // JURARD TIME:
 const jurardLocalTime = document.getElementById("jurardtime")
 console.log(jurardLocalTime)
-const jurardStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const jurardStandardTime = new Date('August 5, 2024 5:00:00 GMT+00:00'); 
 jurardLocalTime.textContent = (jurardStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // GOLDBULLET TIME:
 const goldbulletLocalTime = document.getElementById("goldbullettime")
 console.log(goldbulletLocalTime)
-const goldbulletStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const goldbulletStandardTime = new Date('August 5, 2024 16:00:00 GMT+00:00'); 
 goldbulletLocalTime.textContent = (goldbulletStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // OCTAVIO TIME:
 const octavioLocalTime = document.getElementById("octaviotime")
 console.log(octavioLocalTime)
-const octavioStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const octavioStandardTime = new Date('August 5, 2024 1:00:00 GMT+00:00'); 
 octavioLocalTime.textContent = (octavioStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
+// OCTAVIO TIME B:
+const octavioLocalTimeB = document.getElementById("octaviotimeb")
+console.log(octavioLocalTimeB)
+const octavioStandardTimeB = new Date('August 5, 2024 12:00:00 GMT+00:00'); 
+octavioLocalTimeB.textContent = (octavioStandardTimeB.toLocaleTimeString('en-US'));
+//--------------------------------------------
 // RUZE TIME:
 const ruzeLocalTime = document.getElementById("ruzetime")
 console.log(ruzeLocalTime)
-const ruzeStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); //change time to typical stream time in GMT
+const ruzeStandardTime = new Date('August 5, 2024 18:00:00 GMT+00:00'); 
 ruzeLocalTime.textContent = (ruzeStandardTime.toLocaleTimeString('en-US'));
+//--------------------------------------------
+// RUZE TIME B:
+const ruzeLocalTimeb = document.getElementById("ruzetimeb")
+console.log(ruzeLocalTimeb)
+const ruzeStandardTimeb = new Date('August 5, 2024 02:00:00 GMT+00:00'); 
+ruzeLocalTimeb.textContent = (ruzeStandardTimeb.toLocaleTimeString('en-US'));
 // COULD MAKE THESE AS EMBEDDABLE THINGS MAYBE??
