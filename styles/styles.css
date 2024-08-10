@@ -22,8 +22,17 @@ h3, p {
   color: white;
 }
 samp {
-  text-align: center;
   font-size: 120%;
+}
+.about{
+  margin: 20px;
+  text-align: center;
+}
+.abouttext {
+  background-color: pink;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
 }
 .tempus-hq {
   margin: 20px;
