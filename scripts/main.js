@@ -97,7 +97,7 @@ octavioLocalTimeB.textContent = (octavioStandardTimeB.toLocaleTimeString('en-US'
 // RUZE TIME:
 const ruzeLocalTime = document.getElementById("ruzetime")
 console.log(ruzeLocalTime)
-const ruzeStandardTime = new Date('August 5, 2024 18:00:00 GMT+00:00'); 
+const ruzeStandardTime = new Date('August 5, 2024 17:00:00 GMT+00:00'); 
 ruzeLocalTime.textContent = (ruzeStandardTime.toLocaleTimeString('en-US'));
 //--------------------------------------------
 // RUZE TIME B:
