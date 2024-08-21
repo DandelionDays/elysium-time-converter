@@ -6,14 +6,14 @@ I built this project in order to better understand using JavaScript's toLocalTim
 You can view Elysium Time Converter at https://dandeliondays.github.io/elysium-time-converter/
 
 # Comparing toLocalTimeString() Implementations
-### Elysium Time Converter:
+### Elysium Time Converter version:
 ```
 const hakkaLocalTime = document.getElementById("hakkatime")
 console.log(hakkaLocalTime)
 const hakkaStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); 
 hakkaLocalTime.textContent = (hakkaStandardTime.toLocaleTimeString('en-US'));
 ```
-### Banzoin Hakka Fansite:
+### Banzoin Hakka Fansite version:
 ```
 let myLocalTime = document.querySelector("samp");
 const event = new Date('August 5, 2024 0:00:00 GMT+00:00');
