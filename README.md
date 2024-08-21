@@ -5,6 +5,8 @@ I built this project in order to better understand using JavaScript's toLocalTim
 
 You can view Elysium Time Converter at https://dandeliondays.github.io/elysium-time-converter/
 
+Read my Ko-Fi blog about Elysium Time Converter at https://ko-fi.com/post/Check-out-the-Elysium-Time-Converter-website-R6R81268RW
+
 # Comparing toLocalTimeString() Implementations
 ### Elysium Time Converter version:
 ```
