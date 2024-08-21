@@ -7,7 +7,9 @@ You can view Elysium Time Converter at https://dandeliondays.github.io/elysium-t
 
 # Comparing toLocalTimeString() Implementations
 ### Elysium Time Converter:
-```const hakkaLocalTime = document.getElementById("hakkatime")
+```
+const hakkaLocalTime = document.getElementById("hakkatime")
 console.log(hakkaLocalTime)
 const hakkaStandardTime = new Date('August 5, 2024 0:00:00 GMT+00:00'); 
-hakkaLocalTime.textContent = (hakkaStandardTime.toLocaleTimeString('en-US'));```
+hakkaLocalTime.textContent = (hakkaStandardTime.toLocaleTimeString('en-US'));
+```
