@@ -30,7 +30,7 @@ console.log(title);
 const altareLocalTime = document.getElementById("altaretime")
 console.log(altareLocalTime)
   // YES THIS WORKED LOL
-const altareStandardTime = new Date('August 5, 2024 13:00:00 GMT+00:00'); 
+const altareStandardTime = new Date('August 5, 2024 12:00:00 GMT+00:00'); 
 altareLocalTime.textContent = (altareStandardTime.toLocaleTimeString('en-US'));
 //--------------------------------------------
 // ALTARE TIME B:
@@ -97,12 +97,12 @@ octavioLocalTimeB.textContent = (octavioStandardTimeB.toLocaleTimeString('en-US'
 // RUZE TIME:
 const ruzeLocalTime = document.getElementById("ruzetime")
 console.log(ruzeLocalTime)
-const ruzeStandardTime = new Date('August 5, 2024 18:00:00 GMT+00:00'); 
+const ruzeStandardTime = new Date('August 5, 2024 17:00:00 GMT+00:00'); 
 ruzeLocalTime.textContent = (ruzeStandardTime.toLocaleTimeString('en-US'));
 //--------------------------------------------
 // RUZE TIME B:
 const ruzeLocalTimeb = document.getElementById("ruzetimeb")
 console.log(ruzeLocalTimeb)
-const ruzeStandardTimeb = new Date('August 5, 2024 01:00:00 GMT+00:00'); 
+const ruzeStandardTimeb = new Date('August 5, 2024 00:00:00 GMT+00:00'); 
 ruzeLocalTimeb.textContent = (ruzeStandardTimeb.toLocaleTimeString('en-US'));
 // COULD MAKE THESE AS EMBEDDABLE THINGS MAYBE??
